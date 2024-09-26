@@ -1,6 +1,4 @@
-.ThemeContext_dark {
-  --Header-button-color: #fff;
-}
+
 SWIFT- CS330
 
 This repo is for learning the Swift Programming language. 

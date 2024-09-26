@@ -24,35 +24,21 @@ In addition to being efficient, Swift is also strongly-typed, meaning that when 
 
 Operators available for each datatype in Swift are:
 
-Assignment Operator: 
-
-
 Arithmetic Operators: 
 
-
-Remainder Operator:
-
-
-Unary Minus Operator: 
-
-
-Unary Plus Operator: 
-
-
-Compound Assignment Operators: 
-
+Assignment Operators: 
 
 Comparison Operators: 
 
-Ternary Conditional Operator: 
+Logical Operators: 
 
-Nil-Coalescing Operator:
+Bitwise Operators: 
 
+Ternary Operator: 
 
-Range Operators: 
+Nil-Coalescing Operator: 
 
-Logical Operators; 
-
+Range Operator: 
 
 
 
@@ -75,5 +61,5 @@ REFERENCES:
 4. https://www.programiz.com/swift-programming/variables-constants-literals
 5. https://www.alibabacloud.com/tech-news/a/swift/gv9vmn13zh-swifts-type-system-leveraging-safety#:~:text=The%20type%20system%20in%20Swift%20is%20static%2C%20which%20means%20that,effectively%2C%20leading%20to%20better%20performance.
 6. https://www.aidanf.net/learn-swift/types_and_type_inference#:~:text=Swift%20is%20strongly%20typed.,(since%20it's%20statically%20typed).
-7. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/
+7. https://www.programiz.com/swift-programming/operators
 

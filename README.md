@@ -14,7 +14,7 @@ Swift was first announced at Apple's Worldwide Developer Conference in 2014, mak
 
 
 
-VARIABLES & DATATYPES: 
+__VARIABLES & DATATYPES__: 
 
 Swift has several reserved words. Linked right here is the entire list of the reserved words in the langauge in order for you to reference: https://swiftbydeya.com/swift-keywords/
 Swift's keywords are crucial to how the language functions and are used for declarations, statements, expressions, types, patterns, bitwise operators as well as some reserved for particular contexts. 
@@ -55,7 +55,7 @@ Range Operator:
 
 
 
-REFERENCES:
+__REFERENCES__:
   In order of when they are mentioned throughout this file.  
 
 1. https://www.javatpoint.com/history-of-swift#google_vignette

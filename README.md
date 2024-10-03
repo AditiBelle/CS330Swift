@@ -8,7 +8,7 @@ This repo is for learning the Swift Programming language.
 Author: Aditi Belle
 
 
-HISTORY: 
+**HISTORY: **
 
 Swift was first announced at Apple's Worldwide Developer Conference in 2014, making it a relatively new language. Its development first began in 2010 by a team over at Apple led by Chris Lattner with Doug Gregor, John McCall, Ted Kremenek, and Joe Groff. The reason for developing Swift was to ease up the process of app development for Apple's devices. Prior to the release of Swift, this process was done through Objective-C. The objective to switching over to Swift was to make programming more accessible and faster in addition to reducing chances of error. 
 

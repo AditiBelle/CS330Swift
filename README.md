@@ -43,7 +43,7 @@ Nil-Coalescing Operator:
 
 Range Operator: 
 
-## __Functions__:
+## __FUNCTIONS__:
 
 
 

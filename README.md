@@ -59,7 +59,7 @@ Are there any other aspects of functions in your language that aren't specifical
 
 In order to declare a function in Swift, you must include a keyword that is used to declare the function, a name for the function itself, parameters, and the return value. 
                   `func = NameofFunction(parameters) -> returnType` {
-                  }
+                  } [https://www.programiz.com/swift-programming/functions]
 
 
 

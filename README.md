@@ -33,7 +33,7 @@ Where are the arguments, parameters and local variables stored (value-on-stack, 
 What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
 Are side-effects possible? Are there guard rails against side-effects?
 Where are local variable values stored? (on the stack? On the heap?)
-Are there any other aspects of functions in your language that aren't specifically asked about here, but that are important to know in order to write one?  What are they? (e.g. dynamic vs static scope)
+Are there any other aspects of functions in your language that aren't specifically asked about here, but that are important to know in order to write one?  What are they? (e.g. dynamic vs static scope) (still answering)
 
 In order to declare a function in Swift, you must include a keyword that is used to declare the function, a name for the function itself, parameters, and the return value. 
                   `func = NameofFunction(parameters) -> returnType` {

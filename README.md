@@ -25,32 +25,10 @@ Swift is statically-typed, meaning that every single object is checked while the
 
 In addition to being efficient, Swift is also strongly-typed, meaning that when you set a vraible, Swift checks during compiling, if the variable is the correct type. 
 
-Operators available for each datatype in Swift are:
-
-Arithmetic Operators: 
-
-Assignment Operators: 
-
-Comparison Operators: 
-
-Logical Operators: 
-
-Bitwise Operators: 
-
-Ternary Operator: 
-
-Nil-Coalescing Operator: 
-
-Range Operator: 
+Operators available for each datatype in Swift are: Arithmetic Operators, Assignment Operators, Comparison Operators, Logical Operators, Bitwise Operators, Ternary Operator, Nil-Coalescing Operator, and Range Operator. 
 
 ## __FUNCTIONS__:
 
-What is the syntax for declaring a function in your language?
-Are there any rules about where the function has to be placed in your code file so that it can run?
-Does your language support recursive functions?
-Can functions in your language accept multiple parameters?  Can they be of different data types?
-Can functions in your language return multiple values at the same time?  How is that implemented?  If not, are there ways around that problem?  What are they?
-Is your language pass-by reference or value?  Check your code against outside sources in case there is anything tricky going on (like in Perl).
 Where are the arguments, parameters and local variables stored (value-on-stack, ref-to-heap-on stack) during execution?
 What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
 Are side-effects possible? Are there guard rails against side-effects?
@@ -59,7 +37,11 @@ Are there any other aspects of functions in your language that aren't specifical
 
 In order to declare a function in Swift, you must include a keyword that is used to declare the function, a name for the function itself, parameters, and the return value. 
                   `func = NameofFunction(parameters) -> returnType` {
-                  } [^8]
+                  } [8]
+When creating a function, there are no rules regarding where in the code file it is placed. Additionally, Swift allows for recursive functions. Furthermore, Swift allos for functions to take in many parameters of different datatypes. 
+Swift allows you to return multiple values from your functions but NOT multiple datatypes. In order to be able to return multiple datatypes however, it should be in a tuple, array or dictionary. 
+The langauge carries out boht pass-by-value and pass-by-reference. For pass-by-value, the parameter must not be in-out. For pass-by-reference, the parameter must be in-out. In-out refers to any constant value type that passes a function. 
+
 
 
 
@@ -84,4 +66,8 @@ In order to declare a function in Swift, you must include a keyword that is used
 6. https://www.aidanf.net/learn-swift/types_and_type_inference#:~:text=Swift%20is%20strongly%20typed.,(since%20it's%20statically%20typed).
 7. https://www.programiz.com/swift-programming/operators
 8. https://www.programiz.com/swift-programming/functions
+9. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/#
+10. https://www.hackingwithswift.com/quick-start/understanding-swift/how-can-you-return-two-or-more-values-from-a-function#:~:text=Swift's%20functions%20have%20a%20single,an%20array%20or%20a%20dictionary.
+11. https://sarunw.com/posts/swift-inout-parameter/
+12. https://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference
 

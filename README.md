@@ -29,7 +29,7 @@ Operators available for each datatype in Swift are: Arithmetic Operators, Assign
 
 ## __FUNCTIONS__:
 
-Where are the arguments, parameters and local variables stored (value-on-stack, ref-to-heap-on stack) during execution?
+
 What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
 Are side-effects possible? Are there guard rails against side-effects?
 Where are local variable values stored? (on the stack? On the heap?)
@@ -39,8 +39,17 @@ In order to declare a function in Swift, you must include a keyword that is used
                   `func = NameofFunction(parameters) -> returnType` {
                   } [8]
 When creating a function, there are no rules regarding where in the code file it is placed. Additionally, Swift allows for recursive functions. Furthermore, Swift allos for functions to take in many parameters of different datatypes. 
+
 Swift allows you to return multiple values from your functions but NOT multiple datatypes. In order to be able to return multiple datatypes however, it should be in a tuple, array or dictionary. 
-The langauge carries out boht pass-by-value and pass-by-reference. For pass-by-value, the parameter must not be in-out. For pass-by-reference, the parameter must be in-out. In-out refers to any constant value type that passes a function. 
+
+The langauge carries out both pass-by-value and pass-by-reference. For pass-by-value, the parameter must not be in-out. For pass-by-reference, the parameter must be in-out. In-out refers to any constant value type that passes a function. 
+
+In a stack operation, local variables are stored on the stack. In a heap, a dynamic allocation of memory is allowed. It does not follow the same strict rues of the stack and is used for storing large amounts of data as well as for accessing data throughout the application as well. 
+
+In Swift there are three different types of Scope:
+              - Global: this is where the Product class is defined. 
+          
+
 
 
 
@@ -70,4 +79,5 @@ The langauge carries out boht pass-by-value and pass-by-reference. For pass-by-v
 10. https://www.hackingwithswift.com/quick-start/understanding-swift/how-can-you-return-two-or-more-values-from-a-function#:~:text=Swift's%20functions%20have%20a%20single,an%20array%20or%20a%20dictionary.
 11. https://sarunw.com/posts/swift-inout-parameter/
 12. https://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference
-
+13. https://medium.com/@vinodh_36508/understanding-memory-allocation-in-swift-stack-vs-heap-03682b528bff
+14. https://www.appypie.com/scope-context-swift-how-to#:~:text=What's%20“scope”%20in%20Swift%20programming,challenging%20to%20grasp%20at%20first.

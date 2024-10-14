@@ -1,0 +1,19 @@
+import UIKit
+
+var booleann = 3 > 4  //this statement shows how booleans operate in swift. it should print false
+print(booleann)
+
+
+var num = 7 //looking at how Swift handles integers, in this case 7
+var numm = Int(7.777) //this should be just 7 instead of being a float
+var nummm = 7.777 //this should be a float
+print(num)
+print(numm)
+print(nummm)
+
+var listt = [1,2,3,4] //looking at lists in swift
+print(listt)
+
+
+var dictionaryy = ["water": "liquid", "ice": "solid", "steam": "gas"] //dicitionaries in swift
+print(dictionaryy)

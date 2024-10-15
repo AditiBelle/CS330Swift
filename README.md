@@ -48,6 +48,18 @@ In a stack operation, local variables are stored on the stack. In a heap, a dyna
 
 In Swift there are three different types of Scope:
               - Global: this is where the Product class is defined. 
+
+
+##__SELECTION, LOOPS & CONDITIONALS__:
+
+
+How does your language delimit code blocks under each condition in selection control statements?
+Does your language use short-circuit evaluation?  Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
+How does your programming language deal with the “dangling else” problem?
+If your language supports switch or case statements, do you have to use “break” to get out of them?  Can you use “continue” to have all of the conditions evaluated?
+
+In Swift, Boolean values print as either true or false. They are not capitalized like typical languages. Swift allows you to write if/else if/else statements, which are different than what you would typically come across in Python. 
+
           
 
 
@@ -81,3 +93,6 @@ In Swift there are three different types of Scope:
 12. https://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference
 13. https://medium.com/@vinodh_36508/understanding-memory-allocation-in-swift-stack-vs-heap-03682b528bff
 14. https://www.appypie.com/scope-context-swift-how-to#:~:text=What's%20“scope”%20in%20Swift%20programming,challenging%20to%20grasp%20at%20first.
+15. https://theswiftdev.com/all-about-the-bool-type-in-swift/
+16. https://www.geeksforgeeks.org/swift-if-else-if-statement/
+17. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/

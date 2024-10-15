@@ -37,7 +37,7 @@ Are there any other aspects of functions in your language that aren't specifical
 
 In order to declare a function in Swift, you must include a keyword that is used to declare the function, a name for the function itself, parameters, and the return value. 
                   `func = NameofFunction(parameters) -> returnType {
-                  }` [8]
+                  }` [^8]
 When creating a function, there are no rules regarding where in the code file it is placed. Additionally, Swift allows for recursive functions. Furthermore, Swift allos for functions to take in many parameters of different datatypes. 
 
 Swift allows you to return multiple values from your functions but NOT multiple datatypes. In order to be able to return multiple datatypes however, it should be in a tuple, array or dictionary. 

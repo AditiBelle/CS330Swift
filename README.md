@@ -50,7 +50,7 @@ In Swift there are three different types of Scope:
               - Global: this is where the Product class is defined. 
 
 
-##__SELECTION__LOOPS__ &__CONDITIONALS__:
+##__CONDITIONALS__:
 
 
 How does your language delimit code blocks under each condition in selection control statements?

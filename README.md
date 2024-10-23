@@ -76,7 +76,7 @@ if isCold && isHot {
 }
 ```
 
-For control flow in swift, 'if', 'guard', and 'switch' statements allow the code to branch off into different condtions. The 'break' and 'continue' are used to transfer the flow of electution to another location in the code. 
+For control flow in swift, 'if', 'guard', and 'switch' statements allow the code to branch off into different condtions. The 'break' and 'continue' are used to transfer the flow of electution to another location in the code [22]. 
 
 
           

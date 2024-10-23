@@ -65,8 +65,6 @@ In order to delimit a code block, Swift utilizes curly brackets {}.
 Swift allows for short circuiting by using && for 'and' and || for 'or'. In this case, if the first condition is false, the second condition will not be checked. In order for the condition to be considered true, both of the conditions must be true. 
 
 ```  An example of short-circuiting in Swift: 
-
-
 let isCold = false
 
 let isHot = true
@@ -79,9 +77,6 @@ if isCold && isHot {
 
 
 }
-
-
-
 ```
 
 

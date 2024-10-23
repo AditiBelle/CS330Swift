@@ -41,6 +41,8 @@ The langauge carries out both pass-by-value and pass-by-reference. For pass-by-v
 In a stack operation, local variables are stored on the stack. In a heap, a dynamic allocation of memory is allowed. It does not follow the same strict rues of the stack and is used for storing large amounts of data as well as for accessing data throughout the application as well. 
 
 In Swift there are three different types of Scope:
+            
+              
               *  Global: This is where variables are defined outside of the classes and functions at the highest level of the code. This can be used in all of the functions and classes. 
               * Local: This is present within a specific function and that function only. Often called the function scope. 
               * Class: This is where the class and functions are defined.

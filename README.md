@@ -54,13 +54,26 @@ In Swift, local variables are stored in a stack. The stack also manages call fra
 
 ## SELECTION, LOOPS & CONDITIONALS:
 
-
-How does your language delimit code blocks under each condition in selection control statements?
 Does your language use short-circuit evaluation?  Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
 How does your programming language deal with the “dangling else” problem?
 If your language supports switch or case statements, do you have to use “break” to get out of them?  Can you use “continue” to have all of the conditions evaluated?
 
 In Swift, Boolean values print as either true or false. They are not capitalized like typical languages. Swift allows you to write if/else if/else statements, which are different than what you would typically come across in Python. 
+
+In order to delimit a code block, Swift utilizes curly brackets {}. 
+
+Swift allows for short circuiting by using && for 'and' and || for 'or'. In this case, if the first condition is false, the second condition will not be checked. In order for the condition to be considered true, both of the conditions must be true. 
+
+` An example of short-circuiting in Swift: 
+let isCold = false
+let isHot = true
+if isCold && isHot {
+  print("It is warm!")
+}
+`
+
+
+
 
           
 

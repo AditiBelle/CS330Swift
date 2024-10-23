@@ -53,14 +53,11 @@ In Swift, local variables are stored in a stack. The stack also manages call fra
 
 
 ## SELECTION, LOOPS & CONDITIONALS:
-
-Does your language use short-circuit evaluation?  Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
-How does your programming language deal with the “dangling else” problem?
 If your language supports switch or case statements, do you have to use “break” to get out of them?  Can you use “continue” to have all of the conditions evaluated?
 
 In Swift, Boolean values print as either true or false. They are not capitalized like typical languages. Swift allows you to write if/else if/else statements, which are different than what you would typically come across in Python. 
 
-In order to delimit a code block, Swift utilizes curly brackets {}. 
+In order to delimit a code block, Swift utilizes curly brackets {}. This in turn organizes the if-else statements, eliminating the "dangling-else" problem. 
 
 Swift allows for short circuiting by using && for 'and' and || for 'or'. In this case, if the first condition is false, the second condition will not be checked. In order for the condition to be considered true, both of the conditions must be true. 
 
@@ -79,7 +76,7 @@ if isCold && isHot {
 }
 ```
 
-
+For control flow in swift, 'if', 'guard', and 'switch' statements allow the code to branch off into different condtions. The 'break' and 'continue' are used to transfer the flow of electution to another location in the code. 
 
 
           
@@ -120,3 +117,6 @@ if isCold && isHot {
 17. https://theswiftdev.com/all-about-the-bool-type-in-swift/
 18. https://www.geeksforgeeks.org/swift-if-else-if-statement/
 19. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/
+20. https://medium.com/@ayshindhe/short-circuiting-in-swift-a-simple-explanation-5be8358f20ca#:~:text=Swift%2C%20like%20many%20programming%20languages,and%20%7C%7C%20(OR)%20operators.&text=If%20the%20first%20condition%20is,entire%20expression%20to%20be%20true.
+21. https://stackoverflow.com/questions/967511/how-do-different-languages-handle-the-dangling-else
+22. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/

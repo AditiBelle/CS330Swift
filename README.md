@@ -29,12 +29,6 @@ Operators available for each datatype in Swift are: Arithmetic Operators, Assign
 
 ## __FUNCTIONS__:
 
-
-What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
-Are side-effects possible? Are there guard rails against side-effects?
-Where are local variable values stored? (on the stack? On the heap?)
-Are there any other aspects of functions in your language that aren't specifically asked about here, but that are important to know in order to write one?  What are they? (e.g. dynamic vs static scope) (still answering)
-
 In order to declare a function in Swift, you must include a keyword that is used to declare the function, a name for the function itself, parameters, and the return value. 
                   `func = NameofFunction(parameters) -> returnType {
                   }` [8]
@@ -47,7 +41,13 @@ The langauge carries out both pass-by-value and pass-by-reference. For pass-by-v
 In a stack operation, local variables are stored on the stack. In a heap, a dynamic allocation of memory is allowed. It does not follow the same strict rues of the stack and is used for storing large amounts of data as well as for accessing data throughout the application as well. 
 
 In Swift there are three different types of Scope:
-              - Global: this is where the Product class is defined. 
+              - Global: This is where variables are defined outside of the classes and functions at the highest level of the code. This can be used in all of the functions and classes. 
+              - Local: This is present within a specific function and that function only. Often called the function scope. 
+              - Class: This is where the class and functions are defined.
+
+When it comes to side effects, it is hard to tell what changes functions make internally to the object. This can get tricky and it can be had to tell what exact changes are ocucuring. The onChange property details all the changes in state of the object to further understand any side effects occurring.
+
+In Swift, local variables are stored in a stack. The stack also manages call frames. It is managed by the compiler. 
 
 
 ## SELECTION, LOOPS & CONDITIONALS:
@@ -93,6 +93,8 @@ In Swift, Boolean values print as either true or false. They are not capitalized
 12. https://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference
 13. https://medium.com/@vinodh_36508/understanding-memory-allocation-in-swift-stack-vs-heap-03682b528bff
 14. https://www.appypie.com/scope-context-swift-how-to#:~:text=What's%20“scope”%20in%20Swift%20programming,challenging%20to%20grasp%20at%20first.
-15. https://theswiftdev.com/all-about-the-bool-type-in-swift/
-16. https://www.geeksforgeeks.org/swift-if-else-if-statement/
-17. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/
+15. https://goksel.codes/identifying-side-effects-using-swift/
+16. https://medium.com/@vinodh_36508/understanding-memory-allocation-in-swift-stack-vs-heap-03682b528bff#:~:text=Stack%20Operation%3A&text=Control%20Flow%3A%20It%20keeps%20track,are%20stored%20on%20the%20stack.
+17. https://theswiftdev.com/all-about-the-bool-type-in-swift/
+18. https://www.geeksforgeeks.org/swift-if-else-if-statement/
+19. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/

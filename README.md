@@ -53,7 +53,6 @@ In Swift, local variables are stored in a stack. The stack also manages call fra
 
 
 ## SELECTION, LOOPS & CONDITIONALS:
-If your language supports switch or case statements, do you have to use “break” to get out of them?  Can you use “continue” to have all of the conditions evaluated?
 
 In Swift, Boolean values print as either true or false. They are not capitalized like typical languages. Swift allows you to write if/else if/else statements, which are different than what you would typically come across in Python. 
 

@@ -58,7 +58,7 @@ In Swift, Boolean values print as either true or false. They are not capitalized
 
 In order to delimit a code block, Swift utilizes curly brackets {}. This in turn organizes the if-else statements, eliminating the "dangling-else" problem. 
 
-Swift allows for short circuiting by using && for 'and' and || for 'or'. In this case, if the first condition is false, the second condition will not be checked. In order for the condition to be considered true, both of the conditions must be true. 
+Swift allows for short circuiting by using && for 'and' and || for 'or'. In this case, if the first condition is false, the second condition will not be checked. In order for the statement to be considered true, both of the conditions must be true. 
 
 ```  An example of short-circuiting in Swift: 
 let isCold = false

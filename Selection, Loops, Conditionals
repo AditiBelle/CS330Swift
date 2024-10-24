@@ -1,0 +1,44 @@
+import UIKit
+
+let number1 = 2
+let number2 = 4
+let number3 = 6
+let number4 = 8
+
+
+if (number1 < number2) {
+    print("Number 1 less than number 2") //one condition
+}
+else if (number1 > number2){
+    print("Number 1 is greater than number 2")
+}
+
+
+
+
+//utilizes mutli conditional statmens, if,else if, else statements and short circuits
+if (number1 < number2) && (number2 < number4){
+    print("Both conditions are True")
+}
+else if (number1 < number2) && (number2 > number4){
+    print("One condition is True")
+}
+else {
+    print("No conditions are True")
+}
+
+
+let drink = "water"
+
+switch drink {
+    case "lemonade":
+            print("The drink is lemonade")
+    case "water":
+            print("The drink is water")
+    case "tea":
+            print("The drink is tea")
+    
+            
+    
+}
+    

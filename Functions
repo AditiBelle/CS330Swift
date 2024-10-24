@@ -1,0 +1,46 @@
+import Foundation
+
+//outputs a nultiplication problem
+
+let a = 3
+
+let b = 4
+
+func multiplication() -> Int {
+    return a * b
+    
+}
+
+let calling = multiplication() //calling first function
+
+print(calling) //printing out calling
+
+//recursive function calucating factorial
+
+
+func factorial() -> Int {
+    
+    let temp = 2
+ 
+    
+    
+    if (temp <= 3){
+        let temp = temp - 1
+        
+        
+    if (temp >= 1) {
+        let callingf = factorial()
+                
+        }
+
+    }
+    
+    return temp
+    
+}
+// STILL WORKING ON THIS. Having Recursion problems
+let callingfac = factorial()
+print(callingfac)
+    
+
+

@@ -77,6 +77,12 @@ if isCold && isHot {
 
 For control flow in swift, 'if', 'guard', and 'switch' statements allow the code to branch off into different condtions. The 'break' and 'continue' are used to transfer the flow of electution to another location in the code [22]. 
 
+## CLASSES & INHERITANCE:
+
+Swift is an object oriented language. Objects are called in an instance of a class. Unlike Java and Python, in Swift there is no need to convert the objects to a string in order to get printed out. Simpply using the print statement will suffice. 
+
+Swift also supports inheritance by allowing the ability to create a new class from an existing class. Unlike using multiple files t carry out inheritance, Swift allows for inheritance to happen on the same file. In Swift, the same method in a subclass overrides the same method in the superclass. 
+
 
           
 
@@ -119,3 +125,5 @@ For control flow in swift, 'if', 'guard', and 'switch' statements allow the code
 20. https://medium.com/@ayshindhe/short-circuiting-in-swift-a-simple-explanation-5be8358f20ca#:~:text=Swift%2C%20like%20many%20programming%20languages,and%20%7C%7C%20(OR)%20operators.&text=If%20the%20first%20condition%20is,entire%20expression%20to%20be%20true.
 21. https://stackoverflow.com/questions/967511/how-do-different-languages-handle-the-dangling-else
 22. https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/
+23. https://www.programiz.com/swift-programming/classes-objects
+24. https://www.programiz.com/swift-programming/inheritance

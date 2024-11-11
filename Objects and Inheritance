@@ -1,0 +1,38 @@
+import UIKit
+
+class Artwork {
+    
+    func name(name: String) {
+        let statement = "This piece is called \(name)."
+        print(statement)
+        
+    }
+    
+    func value() {
+        let value = 1500
+        let statementttt = "This piece is \(value) dollars."
+        print(statementttt)
+        
+    }
+    
+    func genstatement() {
+        print("This piece is in the museum!")
+        
+    }
+}
+class Painting: Artwork {
+    override func value() {
+        let value = 10000
+        let statement = "This piece is \(value) dollars."
+        print(statement)
+    }
+    
+}
+    
+    
+var monalisa = Painting()
+
+
+monalisa.name(name: "Mona Lisa")
+
+monalisa.value()

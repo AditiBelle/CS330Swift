@@ -1,7 +1,7 @@
 
 # SWIFT- CS330
 
-This repo is for learning the Swift Programming language. 
+This repo serves as a tutorial for the Swift Programming language. 
 
 
 

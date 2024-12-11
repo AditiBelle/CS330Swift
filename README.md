@@ -79,9 +79,9 @@ For control flow in swift, 'if', 'guard', and 'switch' statements allow the code
 
 ## CLASSES & INHERITANCE:
 
-Swift is an object oriented language. Objects are called in an instance of a class. Unlike Java and Python, in Swift there is no need to convert the objects to a string in order to get printed out. Simpply using the print statement will suffice. 
+Swift is an object oriented language. Objects are called in an instance of a class. Unlike Java and Python, in Swift there is no need to convert the objects to a string in order to get printed out. Simply using the print statement will suffice. 
 
-Swift also supports inheritance by allowing the ability to create a new class from an existing class. Unlike using multiple files t carry out inheritance, Swift allows for inheritance to happen on the same file. In Swift, the same method in a subclass overrides the same method in the superclass. 
+Swift also supports inheritance by allowing the ability to create a new class from an existing class. Unlike using multiple files to carry out inheritance, Swift allows for inheritance to happen on the same file. In Swift, the same method in a subclass overrides the same method in the superclass. 
 
 
           
